@@ -66,6 +66,18 @@
 
 </head>
 <body>
+<div id="intro">
+    <h1 id="intro-text">Welcome to KOA CME 2026</h1>
+</div>
+<script>
+const introText = document.getElementById("intro-text");
+const intro = document.getElementById("intro");
+
+introText.addEventListener("animationend", () => {
+    intro.remove();
+});
+</script>
+
 
 <!-- LOGOS -->
 <div class="top-logos">
