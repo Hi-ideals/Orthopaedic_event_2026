@@ -10,7 +10,13 @@
   color:#fff;
    /* background: linear-gradient(-45deg,#0f0c29,#302b63,#24243e,#1f1c2c); */
    /* background-color: #6593c7; */
-   background-image: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+   /* background: linear-gradient(135deg, #87ceeb, #a78bfa); */
+
+   background-image: url("./images/bg2.jpg");
+   background-size: cover;        
+   background-position: center;   
+   background-repeat: no-repeat;  
+   /* background-image: linear-gradient(135deg, #0f2027, #203a43, #2c5364); */
   background-size:400% 400%;
   animation:gradientBG 12s ease infinite;
 } 
@@ -109,7 +115,7 @@
   align-items: center;
   gap: 10px;
   font-size: 22px;
-  color: #d6f607;
+  color: #50256d;
   font-weight: 600;
 }
 .event-item i {
@@ -155,7 +161,7 @@
   margin:20px 0;
   font-weight:bold;
   /* background:linear-gradient(90deg,#e1f40d,#d1e307,#ffffff); */
-  background-color: #eaff03;
+  background-color: #d9ff00;
   -webkit-background-clip:text;
   color: white;
   -webkit-text-fill-color:transparent;
@@ -279,7 +285,7 @@
 .card h3{
   font-size:28px;
   margin-bottom:20px;
-  color:#f5fb00;
+  color:#2f2db8;
 }
 
 .card p{
@@ -308,7 +314,7 @@
 .event-details {
   padding: 50px 0;
   background: linear-gradient(135deg, #232222, #5f0a01); 
-  color: white;
+  color: rgb(55, 43, 158);
   text-align: center;
   position: relative;
   overflow: hidden;
@@ -389,15 +395,15 @@
   padding: 20px;
   text-align: center;
   /* background: linear-gradient(135deg, #0c2e54, #15457a); */
-  background-image: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
-  /* background-color: #6593c7; */
+  /* background-image: linear-gradient(135deg, #0f2027, #203a43, #2c5364); */
+  background-color: #529bee;
 }
 
 .fees-title {
   font-size: 34px;
   margin-bottom: 15px;
   font-weight: 700;
-  color: #fff;
+  color: rgb(26, 33, 53);
   letter-spacing: 1px;
 }
 
@@ -438,7 +444,7 @@
   font-size: 20px;
   font-weight: bold;
   margin-bottom: 15px;
-  color: #ffffff;
+  color: #241c1c;
 }
 
 /* Optional small text */
@@ -791,7 +797,7 @@
   text-align: center;
   font-weight: bold;
   font-size: 22px;
-  color: #fff;
+  color: rgb(9, 33, 61);
   position: relative;
 }
 
@@ -939,10 +945,10 @@
 /* Countdown Section */
 .countdown-section {
   /* background-color: #0c2e54; |*/
-  background-image: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
-  /* background-color: #6593c7; */
+  /* background-image: linear-gradient(135deg, #0f2027, #203a43, #2c5364); */
+  background-color: #529bee;
   text-align: center;
-  color: #fff;
+  color: rgb(21, 16, 49);
 }
 
 .countdown-title {
@@ -1310,7 +1316,7 @@
 
 .koa-title {
   text-align: center;
-  color: #ffffff;
+  color: #1e2941;
 
   font-family: 'Playfair Display', serif; /* 🔥 premium */
   font-size: 30px;
@@ -1341,6 +1347,7 @@
 
 .sub-title {
   margin-top: 5px;
+  color: #123a63;
 }
 
 /* Reduce space before ribbon */
