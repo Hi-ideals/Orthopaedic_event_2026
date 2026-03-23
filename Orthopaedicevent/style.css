@@ -9,7 +9,7 @@
   font-family:'Outfit', sans-serif;
   color:#fff;
    /* background: linear-gradient(-45deg,#0f0c29,#302b63,#24243e,#1f1c2c); */
-   background-color: #0c2e54;
+   /* background-color: #6593c7; */
    background-image: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
   background-size:400% 400%;
   animation:gradientBG 12s ease infinite;
@@ -390,6 +390,7 @@
   text-align: center;
   /* background: linear-gradient(135deg, #0c2e54, #15457a); */
   background-image: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+  /* background-color: #6593c7; */
 }
 
 .fees-title {
@@ -582,8 +583,9 @@
 .office-section {
   padding: 30px 15px;
   /* background: linear-gradient(-45deg,#0f0c29,#302b63,#24243e,#1f1c2c); */
-  background-color: #0c2e54;
-  background-image: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+  /* background-color: #0c2e54;
+  background-image: linear-gradient(135deg, #0f2027, #203a43, #2c5364); */
+  background-color: #6593c7;
   background-size: 300% 300%;
   animation: gradientMove 8s ease infinite;
   text-align: center;
@@ -671,8 +673,9 @@
 .office-section2 {
   padding: 30px 15px;
   /* background: linear-gradient(-45deg,#d51706,#cc7511,#24243e,#1f1c2c); */
-  background-color: #0c2e54;
-  background-image: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+  /* background-color: #0c2e54;
+  background-image: linear-gradient(135deg, #0f2027, #203a43, #2c5364); */
+  background-color: #6593c7;
   background-size: 300% 300%;
   animation: gradientMove 8s ease infinite;
   text-align: center;
@@ -935,8 +938,9 @@
 
 /* Countdown Section */
 .countdown-section {
-  background-color: #0c2e54;
+  /* background-color: #0c2e54; |*/
   background-image: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+  /* background-color: #6593c7; */
   text-align: center;
   color: #fff;
 }
