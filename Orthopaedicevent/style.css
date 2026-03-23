@@ -83,7 +83,7 @@
 /* ===== MOBILE ===== */
 @media (max-width: 768px) {
   .logo-circle {
-    width: 110px;
+    width: 100px;
     height: 90px;
     min-width: 110px;
     min-height: 90px;
@@ -154,8 +154,8 @@
   font-size:45px;
   margin:20px 0;
   font-weight:bold;
-  background:linear-gradient(90deg,#e1f40d,#d1e307,#ffffff);
-  /* background-color: #eaff03; */
+  /* background:linear-gradient(90deg,#e1f40d,#d1e307,#ffffff); */
+  background-color: #eaff03;
   -webkit-background-clip:text;
   color: white;
   -webkit-text-fill-color:transparent;
